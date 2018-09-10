@@ -10,4 +10,6 @@
 
 @interface NSThreadHandler : NSObject
 
+- (void) newThreadByNSThread;
+
 @end

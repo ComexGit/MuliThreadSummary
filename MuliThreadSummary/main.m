@@ -7,11 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PThreadHandler.h"
+#import "NSThreadHandler.h"
+#import "GCDHandler.h"
+
+
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+       
+        [PThreadHandler newThreadByPThread];
+        
+        [[NSThreadHandler alloc]newThreadByNSThread];
+        
+        
+        
     }
     return 0;
 }

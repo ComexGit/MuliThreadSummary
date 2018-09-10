@@ -10,6 +10,7 @@
 		0C1C65B32144B92800905D1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1C65B22144B92800905D1F /* main.m */; };
 		0C1C65BB2144D49400905D1F /* NSThreadHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1C65BA2144D49400905D1F /* NSThreadHandler.m */; };
 		C43A851F2145FC7100017B21 /* GCDHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C43A851E2145FC7100017B21 /* GCDHandler.m */; };
+		C43A855A214695A100017B21 /* PThreadHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C43A8559214695A100017B21 /* PThreadHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		0C1C65BA2144D49400905D1F /* NSThreadHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSThreadHandler.m; sourceTree = "<group>"; };
 		C43A851D2145FC7100017B21 /* GCDHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDHandler.h; sourceTree = "<group>"; };
 		C43A851E2145FC7100017B21 /* GCDHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDHandler.m; sourceTree = "<group>"; };
+		C43A8558214695A100017B21 /* PThreadHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PThreadHandler.h; sourceTree = "<group>"; };
+		C43A8559214695A100017B21 /* PThreadHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PThreadHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +66,13 @@
 		0C1C65B12144B92800905D1F /* MuliThreadSummary */ = {
 			isa = PBXGroup;
 			children = (
-				0C1C65B22144B92800905D1F /* main.m */,
+				C43A8558214695A100017B21 /* PThreadHandler.h */,
+				C43A8559214695A100017B21 /* PThreadHandler.m */,
 				0C1C65B92144D49400905D1F /* NSThreadHandler.h */,
 				0C1C65BA2144D49400905D1F /* NSThreadHandler.m */,
 				C43A851D2145FC7100017B21 /* GCDHandler.h */,
 				C43A851E2145FC7100017B21 /* GCDHandler.m */,
+				0C1C65B22144B92800905D1F /* main.m */,
 			);
 			path = MuliThreadSummary;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C1C65B32144B92800905D1F /* main.m in Sources */,
+				C43A855A214695A100017B21 /* PThreadHandler.m in Sources */,
 				0C1C65BB2144D49400905D1F /* NSThreadHandler.m in Sources */,
 				C43A851F2145FC7100017B21 /* GCDHandler.m in Sources */,
 			);
