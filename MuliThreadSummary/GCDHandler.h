@@ -10,4 +10,19 @@
 
 @interface GCDHandler : NSObject
 
++ (void)syncConcurrent;
++ (void)asyncConcurrent;
++ (void)syncSerial;
++ (void)asyncSerial;
++ (void)syncMain;
++ (void)asyncMain;
++ (void)barrier;
++ (void)after;
++ (void)once;
++ (void)apply;
++ (void)groupNotify;
++ (void)groupWait;
++ (void)groupEnterAndLeave;
++ (void)semaphoreSync;
+
 @end

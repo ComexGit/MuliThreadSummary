@@ -12,16 +12,27 @@
 #import "GCDHandler.h"
 
 
-
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
        
-        [PThreadHandler newThreadByPThread];
+//        [PThreadHandler newThreadByPThread];
         
-        [[NSThreadHandler alloc]newThreadByNSThread];
+//        [[NSThreadHandler alloc]newThreadByNSThread];
         
+//        [GCDHandler asyncMain];
+//        [GCDHandler asyncSerial];
+//        [GCDHandler asyncConcurrent];
+//        [GCDHandler syncMain];
+//        [GCDHandler syncSerial];
+//        [GCDHandler syncConcurrent];
+//        [GCDHandler groupWait];
+//        [GCDHandler groupNotify];
         
-        
+        while (1) {
+            
+        }
     }
     return 0;
 }
+
+

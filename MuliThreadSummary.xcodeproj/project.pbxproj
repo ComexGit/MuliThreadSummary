@@ -27,7 +27,7 @@
 
 /* Begin PBXFileReference section */
 		0C1C65AF2144B92800905D1F /* MuliThreadSummary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MuliThreadSummary; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C1C65B22144B92800905D1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C1C65B22144B92800905D1F /* main.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = main.m; sourceTree = "<group>"; };
 		0C1C65B92144D49400905D1F /* NSThreadHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSThreadHandler.h; sourceTree = "<group>"; };
 		0C1C65BA2144D49400905D1F /* NSThreadHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSThreadHandler.m; sourceTree = "<group>"; };
 		C43A851D2145FC7100017B21 /* GCDHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDHandler.h; sourceTree = "<group>"; };
