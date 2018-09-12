@@ -10,7 +10,7 @@
 #import "PThreadHandler.h"
 #import "NSThreadHandler.h"
 #import "GCDHandler.h"
-
+#import "NSOperationHandler.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -27,10 +27,10 @@ int main(int argc, const char * argv[]) {
 //        [GCDHandler syncConcurrent];
 //        [GCDHandler groupWait];
 //        [GCDHandler groupNotify];
+        [NSOperationHandler setMaxConcurrentOperationCount];
         
-        while (1) {
-            
-        }
+        
+        while (1);
     }
     return 0;
 }

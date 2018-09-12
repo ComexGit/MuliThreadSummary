@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0C1C65B32144B92800905D1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1C65B22144B92800905D1F /* main.m */; };
 		0C1C65BB2144D49400905D1F /* NSThreadHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1C65BA2144D49400905D1F /* NSThreadHandler.m */; };
+		C40A2A5D2148E3B300E20DB9 /* NSOperationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C40A2A5C2148E3B300E20DB9 /* NSOperationHandler.m */; };
 		C43A851F2145FC7100017B21 /* GCDHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C43A851E2145FC7100017B21 /* GCDHandler.m */; };
 		C43A855A214695A100017B21 /* PThreadHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C43A8559214695A100017B21 /* PThreadHandler.m */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,8 @@
 		0C1C65B22144B92800905D1F /* main.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = main.m; sourceTree = "<group>"; };
 		0C1C65B92144D49400905D1F /* NSThreadHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSThreadHandler.h; sourceTree = "<group>"; };
 		0C1C65BA2144D49400905D1F /* NSThreadHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSThreadHandler.m; sourceTree = "<group>"; };
+		C40A2A5B2148E3B300E20DB9 /* NSOperationHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSOperationHandler.h; sourceTree = "<group>"; };
+		C40A2A5C2148E3B300E20DB9 /* NSOperationHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationHandler.m; sourceTree = "<group>"; };
 		C43A851D2145FC7100017B21 /* GCDHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDHandler.h; sourceTree = "<group>"; };
 		C43A851E2145FC7100017B21 /* GCDHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDHandler.m; sourceTree = "<group>"; };
 		C43A8558214695A100017B21 /* PThreadHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PThreadHandler.h; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				0C1C65BA2144D49400905D1F /* NSThreadHandler.m */,
 				C43A851D2145FC7100017B21 /* GCDHandler.h */,
 				C43A851E2145FC7100017B21 /* GCDHandler.m */,
+				C40A2A5B2148E3B300E20DB9 /* NSOperationHandler.h */,
+				C40A2A5C2148E3B300E20DB9 /* NSOperationHandler.m */,
 				0C1C65B22144B92800905D1F /* main.m */,
 			);
 			path = MuliThreadSummary;
@@ -135,6 +140,7 @@
 			files = (
 				0C1C65B32144B92800905D1F /* main.m in Sources */,
 				C43A855A214695A100017B21 /* PThreadHandler.m in Sources */,
+				C40A2A5D2148E3B300E20DB9 /* NSOperationHandler.m in Sources */,
 				0C1C65BB2144D49400905D1F /* NSThreadHandler.m in Sources */,
 				C43A851F2145FC7100017B21 /* GCDHandler.m in Sources */,
 			);
