@@ -10,6 +10,8 @@
 
 @interface NSOperationHandler : NSOperation
 
+//==================eg.Operation=============================
+
 + (void)useInvocationOperation;
 + (void)useBlockOperation;
 + (void)useBlockOperationAddExecutionBlock;

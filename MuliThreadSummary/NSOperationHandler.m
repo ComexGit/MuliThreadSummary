@@ -10,6 +10,9 @@
 
 @implementation NSOperationHandler
 
+
+//=====================eg.Operation==========================
+
 /**
  * 使用子类 NSInvocationOperation
  * 在没有使用 NSOperationQueue、在主线程中单独使用使用子类 NSInvocationOperation 执行一个操作的情况下，操作是在当前线程执行的，并没有开启新线程。
